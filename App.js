@@ -42,7 +42,7 @@ export default function App() {
       <SafeAreaView>
         <View style={styles.AD}>
           <InfoText>My Everyday work</InfoText>
-          <ScrollView>
+          <ScrollView >
             {
               todos.map((todo) => {
                 return <Text style={styles.text}>{todo.item}</Text>
